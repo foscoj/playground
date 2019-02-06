@@ -7,9 +7,9 @@ import (
 
 // Handler serves the Output to Output
 func Handler(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintf(w, "<h1>Test</h1>")
+        fmt.Fprintf(w, "<h1>Test 2</h1>")
 }
 
 func main(){
-        fmt.Println("Hello")
+        // do nothing
 }
